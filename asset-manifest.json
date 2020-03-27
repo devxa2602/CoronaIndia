@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/CoronaIndia/static/css/main.892daef6.chunk.css",
-    "main.js": "/CoronaIndia/static/js/main.80259297.chunk.js",
-    "main.js.map": "/CoronaIndia/static/js/main.80259297.chunk.js.map",
+    "main.css": "/CoronaIndia/static/css/main.109e3311.chunk.css",
+    "main.js": "/CoronaIndia/static/js/main.468b9677.chunk.js",
+    "main.js.map": "/CoronaIndia/static/js/main.468b9677.chunk.js.map",
     "runtime-main.js": "/CoronaIndia/static/js/runtime-main.8ba3427b.js",
     "runtime-main.js.map": "/CoronaIndia/static/js/runtime-main.8ba3427b.js.map",
     "static/js/2.e35c06d4.chunk.js": "/CoronaIndia/static/js/2.e35c06d4.chunk.js",
     "static/js/2.e35c06d4.chunk.js.map": "/CoronaIndia/static/js/2.e35c06d4.chunk.js.map",
     "index.html": "/CoronaIndia/index.html",
-    "precache-manifest.53a645f521c5f777b56b2df8bdd02a58.js": "/CoronaIndia/precache-manifest.53a645f521c5f777b56b2df8bdd02a58.js",
+    "precache-manifest.53a042f9787bcfc76c990e3e05ca46d5.js": "/CoronaIndia/precache-manifest.53a042f9787bcfc76c990e3e05ca46d5.js",
     "service-worker.js": "/CoronaIndia/service-worker.js",
-    "static/css/main.892daef6.chunk.css.map": "/CoronaIndia/static/css/main.892daef6.chunk.css.map",
-    "static/js/2.e35c06d4.chunk.js.LICENSE.txt": "/CoronaIndia/static/js/2.e35c06d4.chunk.js.LICENSE.txt"
+    "static/css/main.109e3311.chunk.css.map": "/CoronaIndia/static/css/main.109e3311.chunk.css.map",
+    "static/js/2.e35c06d4.chunk.js.LICENSE.txt": "/CoronaIndia/static/js/2.e35c06d4.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/CoronaIndia/static/media/bg2.b6355534.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.8ba3427b.js",
     "static/js/2.e35c06d4.chunk.js",
-    "static/css/main.892daef6.chunk.css",
-    "static/js/main.80259297.chunk.js"
+    "static/css/main.109e3311.chunk.css",
+    "static/js/main.468b9677.chunk.js"
   ]
 }
