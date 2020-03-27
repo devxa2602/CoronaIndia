@@ -141,14 +141,21 @@ export class DailyStateChart extends Component {
           };
           
         return (
-            <div class="col-xl-12">
+            <div class="col-xl-12  py-1">
                  <div class="card mb-4">
-                        <div class="card-header"><i class="fas fa-chart-bar mr-1"></i>State Wise Case Distribution</div>
+                        <div class="card-header"><i class="fas fa-chart-bar mr-1"></i>Daily Stats Comparison</div>
                                 <div class="card-body"> 
-                                <Line 
+                                <Line id="chBar"
                                 data={data} 
                                 options={{
                                         responsive: true,
+                                        scales: {
+                                          xAxes: [{
+                                            ticks: {
+                                              beginAtZero: false,
+                                            }
+                                          }]
+                                        },
                                         legend: {
                                             display: false
                                          },

@@ -5,6 +5,7 @@ import './App.css';
 import StateTable from './components/StateTable';
 import StateGraph from './components/StateGraph';
 import DailyStateChart from './components/DailyStateChart';
+import Footer from './components/Footer';
 export class App extends Component {
   state={
     success:false,
@@ -45,10 +46,10 @@ export class App extends Component {
         <Navbar/>
           <div className="jumbotron bg-cover ">
             <div className="container ">
-                <h1 className="display-4">Hello, world!</h1>
-                <p className="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                <h1 className="display-4">Go! Corona Go!!!</h1>
+                <p className="lead">This is dashboard website for Covid-19 stats of India.</p>
                 <hr className="my-4"/>
-                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                <p>It uses amod/api-covid-19 api for data.</p>
             </div>
          </div>
         </header>
@@ -56,7 +57,7 @@ export class App extends Component {
       <section className="content" >
         <div className="container ">
                 <Card value={Object.keys(this.state.data).map((key,index)=>this.state.data[key])}/>
-                  <div class="row">
+                  <div class="row my-2">
                     <StateGraph regional={this.state.regional}/>
                     {/* <StateWiseChart chart={chart}/> */}
                     <DailyStateChart/>
@@ -65,6 +66,7 @@ export class App extends Component {
               
               </div>
         </section>
+        <Footer/>
       </div>
     
     )

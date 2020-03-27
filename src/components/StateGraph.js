@@ -21,7 +21,7 @@ if(props.regional.length!==0){
       };
 }
     return (
-        <div class="col-xl-12 " >
+        <div class="col-xl-12 py-1" >
         <div class="card mb-4">
             <div class="card-header"><i class="fas fa-chart-bar mr-1"></i>State Wise Case Distribution</div>
         <div class="card-body"id="myBarChart"> 
@@ -38,7 +38,13 @@ if(props.regional.length!==0){
                         zIndex: -1}}
                  options={{
                     responsive: true,
-                  
+                    scales: {
+                      xAxes: [{
+                        ticks: {
+                          beginAtZero: false,
+                          display: false
+                        }
+                      }]},
                     legend: {
                         display: false
                      }}}

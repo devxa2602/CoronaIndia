@@ -2,8 +2,9 @@ import React from 'react'
 
 function card(props) {
     return (
+        <div className='container'>
         <div class=" card-deck ">
-            <div class="card bg-dark text-white mb-4">
+            <div class="card bg-secondary text-white mb-4">
                 <div class="card-body ">
                     <h4 class="text-white text-center">
                         Total Cases
@@ -22,7 +23,7 @@ function card(props) {
                 <h2 class="text-white text-center">{props.value[1]}</h2>
                 </div>
             </div>
-       
+            <div class="w-100 d-none d-sm-block d-md-none"></div>
             <div class="card bg-primary text-white mb-4">
                 <div class="card-body ">
                     <h4 class="text-white text-center">
@@ -32,7 +33,7 @@ function card(props) {
                 <h2 class="text-white text-center">{props.value[2]}</h2>
                 </div>
             </div>
-       
+            <div class="w-100 d-none d-md-block d-lg-none"></div>
             <div class="card bg-success text-white mb-4">
                 <div class="card-body ">
                     <h4 class="text-white text-center">
@@ -42,8 +43,8 @@ function card(props) {
                 <h2 class="text-white text-center">{props.value[3]}</h2>
                 </div>
             </div>
-       
-        
+            <div class="w-100 d-none d-sm-block d-md-none"></div>
+         <div class="w-100 d-none d-lg-block d-xl-none"></div>
             <div class="card bg-danger text-white mb-4">
                 <div class="card-body ">
                     <h4 class="text-white text-center">
@@ -53,6 +54,7 @@ function card(props) {
                 <h2 class="text-white text-center"> {props.value[4]}</h2>
                 </div>
             </div>
+    </div>
     </div>
        
     )
